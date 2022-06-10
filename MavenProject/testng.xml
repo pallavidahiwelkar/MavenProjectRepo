@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="facebookPack.FbTestClass"/>
+      <class name="youtubePack.YouTubeTC"/>
+      <class name="instaPack.InstaTC"/>
+      <class name="amazonPack.AmazonTC"/>
+      <class name="testPack.TestClass"/>
+      <class name="myntraPack.MyntraTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
